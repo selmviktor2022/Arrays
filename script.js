@@ -12,7 +12,7 @@ myExperiences.push(newJob);
 console.log("Array: ");
 let itemsToList = "";
 for(let i of myExperiences) {
-    itemsToList += ` <li id = listItems > ${i} ⏩</li> `;
+    itemsToList += ` <li id = listItems > ${i} ⏩ ⏩ ⏩</li> `;
     console.log(i);
 }
 listEl.innerHTML += itemsToList;
